@@ -1,6 +1,16 @@
-
-function generateError( message: string, code: number) : never{
-        throw{message:message, errorcode:code}
+function userInput( input1: number | string, input2: number | string){
+    let resultado
+    if(typeof input1 === 'number' && typeof input2 === 'number'){
+        resultado = input1 + input2
+    }
+    else{
+        resultado = input1.toString() + input2.toString()
+    }
+    return resultado
 }
 
-generateError('A aplicação travou', 500)
+    const combinePrices = userInput(10,20)
+    console.log(combinePrices)
+
+    const combineName = userInput('Apple', 'Bread')
+    console.log(combineName)
