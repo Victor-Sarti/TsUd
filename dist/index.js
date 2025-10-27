@@ -1,11 +1,5 @@
-"use strict";
-//unknown ele recebe alguma coisa, não sabe o que é, faz a verficação e depois associa ao tipo 
-Object.defineProperty(exports, "__esModule", { value: true });
-let itemInput;
-let itemName;
-itemInput = 10;
-itemInput = 'Maçã';
-if (itemInput === 'string') {
-    itemName = itemInput;
+function generateError(message, code) {
+    throw { message: message, errorcode: code };
 }
-//# sourceMappingURL=index.js.map
+generateError('A aplicação travou', 400);
+
