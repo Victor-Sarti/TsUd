@@ -1,15 +1,10 @@
-//ENUM 
+//unknown ele recebe alguma coisa, não sabe o que é, faz a verficação e depois associa ao tipo 
 
-//const admin = 1
-//const read = 2
-//const backup = 3
+let itemInput: unknown
+let itemName: string
 
-enum Trabalho{admin =1, desenvolvedor =2, powerBi=3}
-
-const user = {
-    nome: 'Victor',
-    idade: 20,
-    trabalho: Trabalho.desenvolvedor
+itemInput = 10
+itemInput = 'Maçã'
+if(itemInput === 'string'){
+    itemName = itemInput
 }
-
-console.log(user)

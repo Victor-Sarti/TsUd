@@ -1,16 +1,11 @@
-//ENUM 
-//const admin = 1
-//const read = 2
-//const backup = 3
-var Trabalho;
-(function (Trabalho) {
-    Trabalho[Trabalho["admin"] = 1] = "admin";
-    Trabalho[Trabalho["dev"] = 2] = "dev";
-    Trabalho[Trabalho["dash"] = 3] = "dash";
-})(Trabalho || (Trabalho = {}));
-var user = {
-    nome: 'Victor',
-    idade: 20,
-    trabalho: Trabalho.dev
-};
-console.log(user);
+"use strict";
+//unknown ele recebe alguma coisa, não sabe o que é, faz a verficação e depois associa ao tipo 
+Object.defineProperty(exports, "__esModule", { value: true });
+let itemInput;
+let itemName;
+itemInput = 10;
+itemInput = 'Maçã';
+if (itemInput === 'string') {
+    itemName = itemInput;
+}
+//# sourceMappingURL=index.js.map
