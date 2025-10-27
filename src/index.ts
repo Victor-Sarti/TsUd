@@ -1,5 +1,4 @@
-// array especifica para string
-let values1: string[] = ["10","hi","30","lo"]
+//TUPLES
 
-//Array especifica para numero
-let values2: number[] = [10,20,30,40]
+// Apple = produto, 3 = valor, true = se tem no estoque
+let item: [string, number, boolean] = ['Apple', 3, true]
