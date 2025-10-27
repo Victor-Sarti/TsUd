@@ -1,5 +1,5 @@
-//USANDO O ANY = qualquer coisa funciona string, number etc
-let a 
+// array especifica para string
+let values1: string[] = ["10","hi","30","lo"]
 
-a = 10
-a = 'oi'
+//Array especifica para numero
+let values2: number[] = [10,20,30,40]
