@@ -9,7 +9,7 @@ function userInput( input1: number | string, input2: number | string){
     return resultado
 }
 
-    const combinePrices = userInput(10,20)
+    const combinePrices = userInput(20,20)
     console.log(combinePrices)
 
     const combineName = userInput('Apple', 'Bread')
